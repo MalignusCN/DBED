@@ -10,14 +10,14 @@ Land use and land cover (LULC) mapping based on multi-spectral images can in pri
 
 ## Illustration of DBED ##
 <p align="center">
-    <img src="./illustration/DBED.png"/ width="900">
+    <img src="./illustration/DBED.png"/ width="700">
 </p>
 The overview of the dual-branch encoder-decoder (DBED) framework. Given a multi-spectral image $I$, the encoder of RGB and the encoder of NIR extract the features of RGB and NIR data respectively. The RGB and NIR features of the same stage are fused by a multi-spectral attention module and then fed to the decoder.
 
 ## Illustration of MSAM ##
 
 <p align="center">
-    <img src="./illustration/MSAM.png"/ width="900">
+    <img src="./illustration/MSAM.png"/ width="400">
 </p>
 The schema of the multi-scale attention module (MSAM). Given the encoded features of stage s. MSAM generates the fusion feature , and feed it to the decoder.
 ## Get Started
