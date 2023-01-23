@@ -24,7 +24,7 @@ The schema of the multi-scale attention module (MSAM). Given the encoded feature
 
 ## Get Started ##
 
-The whole project is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) with version v0.29.0.
+The whole project is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) with version v0.29.0. <br>
 **Step 0.** Please refer to [get_started.md]((https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/get_started.md#installation) for installation.<br>
 **Step 1.** Paste all the files in this repo to mmsegmentation folders, overwrite the existing file.<br>
 **Step 2.** Prepare the dataset, please download the Gaofen Image Dataset ([GID](https://x-ytong.github.io/project/GID.html)), and cropped the images. We cropped the image into .npy format. You need to fix the dataroot, img_dir, ann_dir and several settings in the config.<br>
