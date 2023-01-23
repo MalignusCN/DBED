@@ -20,7 +20,9 @@ The overview of the dual-branch encoder-decoder (DBED) framework. Given a multi-
     <img src="./illustration/MSAM.png"/ width="400">
 </p>
 The schema of the multi-scale attention module (MSAM). Given the encoded features of stage s. MSAM generates the fusion feature , and feed it to the decoder.
-## Get Started
+
+
+## Get Started ##
 
 The whole project is based on [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) with version v0.29.0.
 **Step 0.** Please refer to [get_started.md]((https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/get_started.md#installation) for installation.
